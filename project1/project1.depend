@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1600686177 source:c:\Новая папка\project1\main.c
+	<stdio.h>
+	<locale.h>
+	<math.h>
+
+1600542589 source:c:\Новая папка\project1\untitled1.c
+	<stdio.h>
+
+1600704760 source:c:\code\project1\main.c
+	<stdio.h>
+	<locale.h>
+	<math.h>
+
