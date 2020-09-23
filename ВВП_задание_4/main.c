@@ -9,10 +9,10 @@ int main(){
     scanf("%f%f", &a,&b);
     printf("S = a * b  площадь = %.2f", a*b);
     printf("\nP = 2 * (a + b)  периметр = %.2f", 2*(a+b));
-    fun2(); // 2
-    fun3(); // 3
-    fun4(); // 4
-    fun5();// 5
+    fun2();
+    fun3();
+    fun4();
+    fun5();
     return 0;
 }
 int fun2(){
