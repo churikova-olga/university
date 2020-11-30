@@ -4,13 +4,13 @@ int main(){
     setlocale(0, "Russian");
     char C;
     int N;
-    printf("север - north, юг - south, east - восток, west - запад\n");
-    printf("Введите один символ n,s,e,w: ");
+    printf("СЃРµРІРµСЂ - north, СЋРі - south, east - РІРѕСЃС‚РѕРє, west - Р·Р°РїР°Рґ\n");
+    printf("Р’РІРµРґРёС‚Рµ РѕРґРёРЅ СЃРёРјРІРѕР» n,s,e,w: ");
     scanf("%c", &C);
-    printf("0 - едет вперед, 1 - поворот налево,(-1) - поворот направо\n");
-    printf("введите 0,1,-1: ");
+    printf("0 - РµРґРµС‚ РІРїРµСЂРµРґ, 1 - РїРѕРІРѕСЂРѕС‚ РЅР°Р»РµРІРѕ,(-1) - РїРѕРІРѕСЂРѕС‚ РЅР°РїСЂР°РІРѕ\n");
+    printf("РІРІРµРґРёС‚Рµ 0,1,-1: ");
     scanf("%d", &N);
-    printf("Полученное направление ");
+    printf("РџРѕР»СѓС‡РµРЅРЅРѕРµ РЅР°РїСЂР°РІР»РµРЅРёРµ ");
     switch(C)
     {
         case'e':
@@ -23,7 +23,7 @@ int main(){
                     if(N==-1)
                         printf("s");
                     else
-                        printf("ошибка");}}
+                        printf("РѕС€РёР±РєР°");}}
             break;
         case's':
             if(N==0)
@@ -35,7 +35,7 @@ int main(){
                     if(N==-1)
                         printf("w");
                     else
-                        printf("ошибка");}}
+                        printf("РѕС€РёР±РєР°");}}
             break;
         case'w':
             if(N==0)
@@ -47,7 +47,7 @@ int main(){
                     if(N==-1)
                         printf("n");
                     else
-                        printf("ошибка");}}
+                        printf("РѕС€РёР±РєР°");}}
             break;
         case'n':
             if(N==0)
@@ -59,10 +59,10 @@ int main(){
                     if(N==-1)
                         printf("e");
                     else
-                        printf("ошибка");}}
+                        printf("РѕС€РёР±РєР°");}}
             break;
         default:
-            printf("Ошибка!");
+            printf("РћС€РёР±РєР°!");
 
     }
     return 0;
