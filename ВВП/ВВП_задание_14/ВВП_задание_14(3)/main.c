@@ -3,13 +3,20 @@
 
 int main()
 {
-    int k = 0, c = 1;
+    int k = 0, c = 0;
     int N;
+    printf("Введите N(N>1): ");
     scanf("%d", &N);
+    if (N>1){
     while (k < N) {
-        k+=c;
         c+=1;
+        k+=c;
+
     }
-    printf("%d %d",k, c-1);
+    printf("Сумма %d наименьшее число %d",k, c);
+    }
+    else{
+        printf("Ошибка");
+    }
     return 0;
 }

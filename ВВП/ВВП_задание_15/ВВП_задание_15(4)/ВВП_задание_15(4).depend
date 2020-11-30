@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1606131547 source:c:\university\ВВП\ВВП_задание_15\ВВП_задание_15(4)\main.c
+	<stdio.h>
+	<locale.h>
+

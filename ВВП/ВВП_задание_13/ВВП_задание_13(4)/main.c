@@ -6,7 +6,7 @@ int main()
     setlocale(0, "Russian");
     int N;
     float A, square = 0;
-    printf("square number input N: ");
+    printf("square number input (N>0): ");
     scanf("%d", &N);
     printf("number input A: ");
     scanf("%f", &A);
